@@ -1,0 +1,91 @@
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-modal: #2e2f4266;
+  --GREY: #2e2f42b2;
+  --WHITE: #fff;
+  --NAVY-BLUE-modal: #2e2f4266;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  size: 16px;
+  color: var(--NAVY-BLUE);
+  line-height: 1.5;
+}
+.logo {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 18px;
+}
+.logo_element {
+  color: var(--IRIS);
+}
+.subpages {
+  font-weight: 500;
+}
+.contacts {
+  color: var(--SLATE);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--NAVY-BLUE);
+}
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--IRIS);
+  background: var(--CLOUD);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--WHITE);
+  background: var(--OCEAN);
+}
+.photo-captions {
+  font-size: 20px;
+  font-weight: 500;
+}
+.smaller-captions {
+  color: var(--SLATE);
+}
+.slogan {
+  color: var(--CLOUD);
+}
+.main-header {
+  color: var(--WHITE);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+}
+.order-button {
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--WHITE);
+  background: var(--OCEAN);
+}
+.order-button:hover,
+.order-button:focus {
+  color: var(--IRIS);
+  background: var(--CLOUD);
+}
+.company-features {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.description-features {
+}
+.smaller-headers {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111;
+}
