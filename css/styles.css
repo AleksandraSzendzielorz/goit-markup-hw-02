@@ -22,7 +22,7 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.7;
+  line-height: 1.17;
   font-size: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -73,6 +73,10 @@ body {
   letter-spacing: 1.12px;
   color: var(--WHITE);
 }
+
+.second-section > h2 {
+  color: var(--NAVY-BLUE);
+}
 .order-button {
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -94,7 +98,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.4px;
   font-weight: 500;
-  color: var(--NAVY-BLUE-MODAL);
+  color: var(--NAVY-BLUE);
 }
 .list-paragraph {
   color: var(--SLATE);
@@ -102,13 +106,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.third-section > .smaller-headers {
+.third-section > .third-section-header {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72px;
   text-transform: capitalize;
-  color: var(--NAVY-BLUE-MODAL);
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .fourth-section {
   background-color: var(--CLOUD);
@@ -159,7 +164,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  lletter-spacing: 0.04em;
   text-align: center;
   color: var(--IRIS);
   background-color: var(--CLOUD);
@@ -188,4 +193,5 @@ body {
 }
 .logo_element-footer {
   color: var(--CLOUD);
+  line-height: 1.17;
 }
