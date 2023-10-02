@@ -164,7 +164,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  lletter-spacing: 0.04em;
+  letter-spacing: 0.04em;
   text-align: center;
   color: var(--IRIS);
   background-color: var(--CLOUD);
